@@ -5,12 +5,14 @@ import * as ReactDOM from 'react-dom'
 //   return ({children})                  
 // }                                                       
 
-const Hello = () => {                                
+const Hello = () => { 
+  console.log('hi')                            
   return (<div>Hello, app here</div>)                  
 }                                                       
                                         
 // Use it if you don't plan to use "remount"                
 document.addEventListener('DOMContentLoaded', () => {     
+  console.log('whatever')
   ReactDOM.render(<Hello />, document.getElementById('hello'))                  
 })                                                    
                                                         

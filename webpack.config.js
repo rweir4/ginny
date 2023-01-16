@@ -31,6 +31,7 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     static: './dist',
+    port: '3000',
   },
   optimization: {
     runtimeChunk: 'single',
