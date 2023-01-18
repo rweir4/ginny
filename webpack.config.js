@@ -1,5 +1,5 @@
 var path = require("path");
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var plugins = []; // if using any plugins for both dev and production
 var devPlugins = []; // if using any plugins for development
